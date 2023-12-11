@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace ACT23
+{
+    public class ACT23
+    {
+        public static double GetAreaSquare(double Length)
+        {
+            return Length * Length;
+        }
+    }
+}
