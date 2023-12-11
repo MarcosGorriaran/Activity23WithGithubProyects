@@ -12,5 +12,9 @@ namespace ACT23
         {
             return FirstLength * SecondLength;
         }
+        public static double GetAreaCircle(double radius)
+        {
+            return Math.PI * (radius * radius);
+        }
     }
 }
