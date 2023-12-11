@@ -8,5 +8,9 @@ namespace ACT23
         {
             return Length * Length;
         }
+        public static double GetAreaSquare (double FirstLength, double SecondLength)
+        {
+            return FirstLength * SecondLength;
+        }
     }
 }
