@@ -19,6 +19,7 @@ namespace ACT23GetAreaTests
             //Assert
             Assert.AreEqual(expected, result);
         }
+        [TestMethod]
         public void GetAreaRectangle()
         {
             //Arrange
@@ -32,6 +33,36 @@ namespace ACT23GetAreaTests
 
             //Assert
             Assert.AreEqual(expected, result);
-        }   
+        }
+        [TestMethod]
+        public void GetAreaCircle()
+        {
+            //Arrange
+            double circleRadius = 10;
+            double expected = 314.159;
+            double result;
+
+            //Act
+            result = GetAreas.GetAreaCircle(circleRadius);
+            result = Math.Round(result, 3, MidpointRounding.ToZero);
+
+            //Assert
+            Assert.AreEqual(expected, result);
+        }
+        [TestMethod]
+        public void GetPentagonArea()
+        {
+            //Arrange
+            double apothem = 10;
+            double length = 4;
+            double expected = 100;
+            double result;
+
+            //Act
+            result = GetAreas.GetAreaPentagon(apothem, length);
+
+            //Assert
+            Assert.AreEqual(expected, result);
+        }
     }
 }
