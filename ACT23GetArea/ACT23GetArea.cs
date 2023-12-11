@@ -2,7 +2,7 @@
 
 namespace ACT23
 {
-    public class ACT23
+    public class GetAreas
     {
         public static double GetAreaSquare(double length)
         {
