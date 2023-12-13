@@ -6,7 +6,7 @@ namespace ACT23
     {
         public static void Main()
         {
-
+            
         }
         public static double GetAreaSquare(double length)
         {
@@ -22,7 +22,7 @@ namespace ACT23
         }
         public static double GetAreaPentagon(double apothem, double length)
         {
-            return (1 / 2) * apothem * (5 * length);
+            return 0.5 * apothem * (5 * length);
         }
     }
 }

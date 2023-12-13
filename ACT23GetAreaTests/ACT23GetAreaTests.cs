@@ -20,12 +20,41 @@ namespace ACT23GetAreaTests
             Assert.AreEqual(expected, result);
         }
         [TestMethod]
+        public void GetAreaSquareByZero()
+        {
+            //Arrange
+            double squareLength = 0;
+            double expected = 0;
+            double result;
+
+            //Act
+            result = GetAreas.GetAreaSquare(squareLength);
+
+            //Assert
+            Assert.AreEqual(expected, result);
+        }
+        [TestMethod]
         public void GetAreaRectangle()
         {
             //Arrange
             double squareLength = -5;
             double secondSquareLength = 9;
             double expected = -45;
+            double result;
+
+            //Act
+            result = GetAreas.GetAreaSquare(squareLength, secondSquareLength);
+
+            //Assert
+            Assert.AreEqual(expected, result);
+        }
+        [TestMethod]
+        public void GetAreaRectangleByZero()
+        {
+            //Arrange
+            double squareLength = 0;
+            double secondSquareLength = 9;
+            double expected = 0;
             double result;
 
             //Act
@@ -50,12 +79,41 @@ namespace ACT23GetAreaTests
             Assert.AreEqual(expected, result);
         }
         [TestMethod]
+        public void GetAreaCircleByZero()
+        {
+            //Arrange
+            double circleRadius = 0;
+            double expected = 0;
+            double result;
+
+            //Act
+            result = GetAreas.GetAreaCircle(circleRadius);
+            result = Math.Round(result, 3, MidpointRounding.ToZero);
+
+            //Assert
+            Assert.AreEqual(expected, result);
+        }
+        [TestMethod]
         public void GetPentagonArea()
         {
             //Arrange
             double apothem = 10;
             double length = 4;
             double expected = 100;
+            double result;
+
+            //Act
+            result = GetAreas.GetAreaPentagon(apothem, length);
+
+            //Assert
+            Assert.AreEqual(expected, result);
+        }
+        public void GetPentagonAreaByZero()
+        {
+            //Arrange
+            double apothem = 0;
+            double length = 4;
+            double expected = 0;
             double result;
 
             //Act
