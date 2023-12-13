@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT23GetArea", "ACT23GetArea\ACT23GetArea.csproj", "{1F1602A9-FB50-4498-B1FF-B5195ACF1282}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT23GetAreaTests", "ACT23GetAreaTests\ACT23GetAreaTests.csproj", "{1E0BC0A7-B8AC-4103-97C2-AFF21277468B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1F1602A9-FB50-4498-B1FF-B5195ACF1282}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F1602A9-FB50-4498-B1FF-B5195ACF1282}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F1602A9-FB50-4498-B1FF-B5195ACF1282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0BC0A7-B8AC-4103-97C2-AFF21277468B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0BC0A7-B8AC-4103-97C2-AFF21277468B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0BC0A7-B8AC-4103-97C2-AFF21277468B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0BC0A7-B8AC-4103-97C2-AFF21277468B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
