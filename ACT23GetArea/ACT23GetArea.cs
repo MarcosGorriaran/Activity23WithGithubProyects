@@ -19,8 +19,7 @@ namespace ACT23
             const string AskPentagonLength = "Provide me with the Length of the pentagon: ";
             const string ShowPentagonArea = "pentagon";
 
-            string length;
-            string apothem;
+            string length, apothem;
 
             Console.WriteLine(WelcomeMsg);
             Console.Write(AskSquareLength);
